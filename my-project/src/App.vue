@@ -12,6 +12,6 @@ import HelloWorld from './components/HelloWorld.vue'
 <style scoped>
 body{
   background-color: white;
-  box-shadow: 0 0 .5em .5em white;
+
 }
 </style>
