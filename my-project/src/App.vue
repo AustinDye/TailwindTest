@@ -3,15 +3,15 @@ import HelloWorld from './components/HelloWorld.vue'
 </script>
 
 <template>
-  <body class=" mx-20">
-    <HelloWorld msg="Vite + Vue" />
+  <body class="px-20 snap-y snap-mandatory overflow-scroll h-screen w-screen bg-gray">
+    <HelloWorld />
   </body>
 
 </template>
 
 <style scoped>
 body{
-  background-color: white;
+
 
 }
 </style>

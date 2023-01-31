@@ -22,25 +22,27 @@ const count = ref(0)
    
   </div> -->
 
-  <div class="text-7xl flex font-bold text-center text-black items-center justify-center bg-dark mt-28  lg:flex lg:text-9xl ">
+
+  <div class=" text-7xl flex font-bold text-center text-black items-center justify-center bg-dark mt-28  lg:flex lg:text-9xl snap-center">
 
       <div class="h-1/2 p-10 ">
         <h1>Austin Dye</h1>
         <p class="text-xl my-5 text-slate-400"> Developer, Desiger, Detail Oriented </p>
       </div>
-      <div class=" h-1/2 p-10 border-solid border-2 ">
-        <img class=" bg-white rounded-full border-solid border-2" src="../assets/img/me.png" alt="">
+      <div class="bg-white h-1/2 p-10 border-solid border-2 shadow-md shadow-black">
+        <img class=" bg-gray rounded-full border-solid border-2" src="../assets/img/me.png" alt="">
       </div>
    
 
   </div>
 
-  <div class="border-solid border-2 text-black mt-72 p-10">
+  <div class="border-solid border-2  text-black mt-72 p-10 snap-center  snap-always bg-white shadow-md shadow-darkblue">
     <div class="container mx-auto">
-      <div class="flex items-center justify-center">
+      <div class="flex items-center justify-center text-black">
       
-        <div class=" text-black  w-1/2 p-20 border-solid border-2">
-          <h2 class="text-7xl  font-bold">Full-Stack Developer</h2>
+        <div class=" text-white bg-darkblue  w-1/2 p-20 border-solid border-2 relative">
+          <h2 class="text-7xl font-bold z-20 relative">Full-Stack Developer</h2>
+          <div class=" w-64 h-10 z-10 absolute bg-black  animate-bounce"></div>
         </div>
         <div class=" bold w-1/2 px-10 ">
           <p class="text-xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat id, magni dignissimos voluptates excepturi dolorem ratione nesciunt quidem sit. Dolor rem mollitia repellat architecto sit explicabo quidem, consequuntur ad aliquid?</p>
@@ -54,7 +56,7 @@ const count = ref(0)
   
     <div class="container flex justify-center mx-auto text-black">
       <div class="columns-3 mt-10 gap-24">
-        <div class=" w-48 p-2">
+        <div class=" w-48 p-2 ">
           <img class="" src="https://www.vectorlogo.zone/logos/vuejs/vuejs-ar21.png" alt="">
         </div>
         <div class=" w-48 p-6">
@@ -74,25 +76,26 @@ const count = ref(0)
     </div>
   
   </div>
-  <div class="border-solid border-2 text-black mt-24 mb-24 p-10">
+  <div class="border-solid border-2 text-black mt-24 mb-24 p-10 snap-center snap-always bg-white shadow-md shadow-orange">
   <div class="container mx-auto">
-    <div class="flex items-center justify-center">
-    
-     
+    <div class="flex items-center justify-center  text-black ">
+      
+   
       <div class=" bold w-1/2 px-10 ">
         <p class="text-xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat id, magni dignissimos voluptates excepturi dolorem ratione nesciunt quidem sit. Dolor rem mollitia repellat architecto sit explicabo quidem, consequuntur ad aliquid?</p>
         <div class="columns-2">
           
         </div>
       </div>
-      <div class=" text-black  w-1/2 p-20 border-solid border-2">
-        <h2 class="text-7xl  font-bold">QA Test Automation</h2>
+      <div class=" text-white bg-orange  w-1/2 p-20 border-solid border-2 relative">
+        <h2 class="text-7xl z-20 font-bold relative">QA Test Automation Engineer</h2>
+        <div class=" w-64 h-10 z-10 absolute bg-black  animate-bounce"></div>
       </div>
      
     </div>
   </div>
 
-  <div class="container flex justify-center mx-auto">
+  <div class="container flex justify-center mx-auto ">
     <div class="columns-4 mt-10 gap-24">
     
       <div class="w-48 p-2">
@@ -114,20 +117,20 @@ const count = ref(0)
     
   </div>
   </div>
-  <div class=" border-solid border-2 text-black p-10">
+  <div class=" bg-white border-solid border-2 text-black p-10 snap-center snap-always mb-10 shadow-md shadow-black">
     <h2 class="text-7xl  font-bold p-20">My Projects</h2>
-    <div class="columns-3">
-      <div class="group border-solid border-2 pt-20 text-black px-10 text-center hover:bg-darkblue ease-in duration-200 hover:shadow-md hover:shadow-darkblue">
+    <div class="columns-3 bg-gray p-10 border-solid border-2">
+      <div class="group cursor-pointer bg-white border-solid border-2 pt-20 text-black px-10 text-center  hover:bg-darkblue ease-in duration-200 shadow-md  shadow-darkblue hover:shadow-none">
         <p class=" text-xl ease-in duration-100 group-hover:text-white group-hover:font-bold">Pleiades Projectworks</p>
         <b class="ease duration-100 group-hover:font-normal group-hover:text-white">Vue.js / Bootstrap 5 website for web development company</b>
-        <img class="pt-10" src="../assets/img/pleiades.png" alt="">
+        <img class="pt-10 " src="../assets/img/pleiades.png" alt="">
       </div>
-      <div class="group border-solid border-2 pt-20 text-black px-10 text-center hover:bg-orange ease-in duration-200 hover:shadow-md hover:shadow-orange">
+      <div class="group cursor-pointer bg-white border-solid border-2 pt-20 text-black px-10 text-center hover:bg-orange ease-in duration-200 shadow-md  shadow-orange hover:shadow-none">
         <p class="text-xl ease-in duration-100 group-hover:text-white group-hover:font-bold">Debbie Dye TC Services</p>
         <b class="ease duration-100 group-hover:font-normal group-hover:text-white">Vue.js / Bootstrap 5 website for transaction coordination buisness</b>
         <img class="pt-10" src="../assets/img/debdye.png" alt="">
       </div>
-      <div class=" group border-solid border-2 pt-20 text-black px-10 text-center hover:bg-gray-dark ease-in duration-200 hover:shadow-md hover:shadow-gray-dark">
+      <div class=" group cursor-pointer bg-white border-solid border-2 pt-20 text-black px-10 text-center hover:bg-gray-dark ease-in duration-200 shadow-md  shadow-gray-dark hover:shadow-none">
         <p class="text-xl ease-in duration-100 group-hover:text-white group-hover:font-bold">Github User Page Clone</p>
         <b class="ease duration-100 group-hover:font-normal group-hover:text-white">My previous portfolio, made using Vue.js and Bootstrap</b>
         <img class="pt-10" src="../assets/img/portfolio.png" alt="">
@@ -135,7 +138,7 @@ const count = ref(0)
     </div>
   </div>
 
-  
+
  
 
     
