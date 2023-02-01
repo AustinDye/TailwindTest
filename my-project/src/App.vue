@@ -3,7 +3,7 @@ import HelloWorld from './components/HelloWorld.vue'
 </script>
 
 <template>
-  <body class="px-20 snap-y snap-mandatory overflow-scroll h-screen w-screen bg-gray">
+  <body class="lg:px-20 md:px-10 snap-y overflow-y-scroll snap-mandatory h-screen w-screen bg-gray overflow-x-hidden">
     <HelloWorld />
   </body>
 
