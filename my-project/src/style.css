@@ -18,3 +18,16 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
+
+
+  @font-face {
+    font-family: "Shrikhand";
+    src: url('./assets/Shrikhand.ttf');
+    font-weight: 400;
+  }
+
+  @font-face {
+    font-family: "Lora";
+    src: url('./assets/Lora.ttf');
+    font-weight: 400;
+  }

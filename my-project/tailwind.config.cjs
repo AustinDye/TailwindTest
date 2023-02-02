@@ -5,11 +5,18 @@ module.exports = {
     "./src/**/*.{vue,js,ts,jsx,tsx}",
   ],
   theme: {
+    fontFamily: {
+      shrikhand: ["Shrikhand", "sans-serif"],
+      lora: ["Lora", "cursive"]
+     
+    },
     extend: {
       boxShadow: {
         'md': ' 8px 8px 0px 0 rgb(0 0 0 / 0.05);',
       }
     },
+
+  
     colors: {
       'blue': '#1fb6ff',
       'purple': '#7e5bef',
