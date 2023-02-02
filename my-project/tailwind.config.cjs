@@ -13,6 +13,10 @@ module.exports = {
     extend: {
       boxShadow: {
         'md': ' 8px 8px 0px 0 rgb(0 0 0 / 0.05);',
+        'other': '-8px 8px 0 0 rgb(0 0 0 / 0.05);'
+      },
+      backgroundImage: {
+        'website': "url('./src/assets/img/pleiades.png')"
       }
     },
 
